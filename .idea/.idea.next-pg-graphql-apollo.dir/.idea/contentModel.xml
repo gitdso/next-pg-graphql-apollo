@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="node_modules/chalk" t="IncludeRecursive" />
+      <e p="node_modules/chokidar" t="IncludeRecursive" />
+      <e p="node_modules/colorette" t="IncludeRecursive" />
+      <e p="node_modules/devalue" t="IncludeRecursive" />
+      <e p="node_modules/fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
+      <e p="node_modules/getopts" t="IncludeRecursive" />
+      <e p="node_modules/jest-worker" t="IncludeRecursive" />
+      <e p="node_modules/knex" t="IncludeRecursive" />
+      <e p="node_modules/microevent.ts" t="IncludeRecursive" />
+      <e p="node_modules/next" t="IncludeRecursive" />
+      <e p="node_modules/path-to-regexp" t="IncludeRecursive" />
+      <e p="node_modules/pg" t="IncludeRecursive" />
+      <e p="node_modules/pg-connection-string" t="IncludeRecursive" />
+      <e p="node_modules/react" t="IncludeRecursive" />
+      <e p="node_modules/react-dom" t="IncludeRecursive" />
+      <e p="node_modules/source-map" t="IncludeRecursive" />
+      <e p="node_modules/tarn" t="IncludeRecursive" />
+      <e p="node_modules/terser" t="IncludeRecursive" />
+      <e p="node_modules/tslib" t="IncludeRecursive" />
+      <e p="node_modules/unfetch" t="IncludeRecursive" />
+      <e p="node_modules/upath" t="IncludeRecursive" />
+      <e p="node_modules/worker-farm" t="IncludeRecursive" />
+      <e p="node_modules/worker-rpc" t="IncludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/ide" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.16.3/core-modules" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.16.3/node-typings/node_modules/@types" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>
