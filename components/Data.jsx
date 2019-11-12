@@ -1,5 +1,25 @@
 import React from 'react';
 
+const query = `
+query Query($table: String){
+  response(table: $table){
+    table{
+      id
+      data
+    }
+    timestamp{
+      minutes
+      seconds
+      milliseconds
+    }
+    duration{
+      seconds
+      milliseconds
+    }
+  }
+}
+`;
+
 class Data extends React.Component {
     constructor(props) {
         super(props);
@@ -11,18 +31,30 @@ class Data extends React.Component {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        const {attempts, tableName} = nextProps;
+        const {attempts, tableName, index} = nextProps;
 
         if (tableName && attempts !== this.props.attempts) {
-            fetch(`/api/${tableName}`)
+            fetch(`/api/graphql`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query,
+                        variables: {table: tableName}
+                    })
+                }
+            )
                 .then(res => res.json())
                 .then(data => {
+                    const {table, timestamp, duration} = data.data.response[0];
                     this.setState({
-                        table: data.table,
-                        timestamp: data.timestamp,
-                        duration: data.duration,
+                        table: table,
+                        timestamp: timestamp,
+                        duration: duration,
                     });
-                    this.props.setDataReceived(tableName);
+                    this.props.setDataReceived(index);
                 });
         }
         return true;

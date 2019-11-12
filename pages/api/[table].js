@@ -1,4 +1,5 @@
 const queries = require('../../db/queries');
+import {ApolloServer, gql} from 'apollo-server-micro'
 
 module.exports = (req, res) => {
     const {query: {table}} = req;

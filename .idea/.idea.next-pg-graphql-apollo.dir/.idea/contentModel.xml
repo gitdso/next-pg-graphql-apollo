@@ -2,29 +2,88 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p="node_modules/@apollographql/apollo-tools" t="IncludeRecursive" />
+      <e p="node_modules/@apollographql/graphql-playground-html" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/aspromise" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/base64" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/codegen" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/eventemitter" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/fetch" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/float" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/inquire" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/path" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/pool" t="IncludeRecursive" />
+      <e p="node_modules/@protobufjs/utf8" t="IncludeRecursive" />
+      <e p="node_modules/@types" t="IncludeRecursive">
+        <e p="accepts" t="IncludeRecursive" />
+        <e p="body-parser" t="IncludeRecursive" />
+        <e p="connect" t="IncludeRecursive" />
+        <e p="cookies" t="IncludeRecursive" />
+        <e p="express" t="IncludeRecursive" />
+        <e p="express-serve-static-core" t="IncludeRecursive" />
+        <e p="fs-capacitor" t="IncludeRecursive" />
+        <e p="http-assert" t="IncludeRecursive" />
+        <e p="keygrip" t="IncludeRecursive" />
+        <e p="koa" t="IncludeRecursive" />
+        <e p="koa-compose" t="IncludeRecursive" />
+        <e p="mime" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="range-parser" t="IncludeRecursive" />
+        <e p="serve-static" t="IncludeRecursive" />
+      </e>
+      <e p="node_modules/@wry/equality" t="IncludeRecursive" />
+      <e p="node_modules/apollo-cache-control" t="IncludeRecursive" />
+      <e p="node_modules/apollo-datasource" t="IncludeRecursive" />
+      <e p="node_modules/apollo-engine-reporting" t="IncludeRecursive" />
+      <e p="node_modules/apollo-engine-reporting-protobuf" t="IncludeRecursive" />
+      <e p="node_modules/apollo-env" t="IncludeRecursive" />
+      <e p="node_modules/apollo-graphql" t="IncludeRecursive" />
+      <e p="node_modules/apollo-link" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-caching" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-core" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-env" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-errors" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-micro" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-plugin-base" t="IncludeRecursive" />
+      <e p="node_modules/apollo-server-types" t="IncludeRecursive" />
+      <e p="node_modules/apollo-tracing" t="IncludeRecursive" />
+      <e p="node_modules/apollo-utilities" t="IncludeRecursive" />
+      <e p="node_modules/arg" t="IncludeRecursive" />
       <e p="node_modules/chalk" t="IncludeRecursive" />
       <e p="node_modules/chokidar" t="IncludeRecursive" />
       <e p="node_modules/colorette" t="IncludeRecursive" />
+      <e p="node_modules/commander" t="IncludeRecursive" />
+      <e p="node_modules/deprecated-decorator" t="IncludeRecursive" />
       <e p="node_modules/devalue" t="IncludeRecursive" />
+      <e p="node_modules/eventemitter3" t="IncludeRecursive" />
       <e p="node_modules/fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules/getopts" t="IncludeRecursive" />
+      <e p="node_modules/graphql" t="IncludeRecursive" />
+      <e p="node_modules/graphql-extensions" t="IncludeRecursive" />
+      <e p="node_modules/graphql-tools" t="IncludeRecursive" />
+      <e p="node_modules/iterall" t="IncludeRecursive" />
       <e p="node_modules/jest-worker" t="IncludeRecursive" />
       <e p="node_modules/knex" t="IncludeRecursive" />
       <e p="node_modules/microevent.ts" t="IncludeRecursive" />
       <e p="node_modules/next" t="IncludeRecursive" />
       <e p="node_modules/path-to-regexp" t="IncludeRecursive" />
       <e p="node_modules/pg" t="IncludeRecursive" />
-      <e p="node_modules/pg-connection-string" t="IncludeRecursive" />
+      <e p="node_modules/protobufjs" t="IncludeRecursive" />
       <e p="node_modules/react" t="IncludeRecursive" />
       <e p="node_modules/react-dom" t="IncludeRecursive" />
       <e p="node_modules/source-map" t="IncludeRecursive" />
+      <e p="node_modules/subscriptions-transport-ws" t="IncludeRecursive" />
+      <e p="node_modules/symbol-observable" t="IncludeRecursive" />
       <e p="node_modules/tarn" t="IncludeRecursive" />
       <e p="node_modules/terser" t="IncludeRecursive" />
+      <e p="node_modules/ts-invariant" t="IncludeRecursive" />
       <e p="node_modules/tslib" t="IncludeRecursive" />
       <e p="node_modules/unfetch" t="IncludeRecursive" />
       <e p="node_modules/upath" t="IncludeRecursive" />
       <e p="node_modules/worker-farm" t="IncludeRecursive" />
       <e p="node_modules/worker-rpc" t="IncludeRecursive" />
+      <e p="node_modules/zen-observable-ts" t="IncludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
